@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f0f0f;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    padding: 20px;
+    background: #151515;
+    border-bottom: 1px solid #222;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.plan-form,
+.plans-list {
+
+    background: #181818;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: white;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.plan-card {
+
+    background: #222;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
